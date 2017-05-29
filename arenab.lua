@@ -16,3 +16,6 @@ function Arena_Base:draw(extraX, extraY, prop, arenaNum)
     start = false
     bg_sounds[arenaNum]:play()
   end
+end
+
+return Arena_Base
